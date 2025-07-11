@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+    <style>
+        body{
+            background-color:whitesmoke;
+            padding: 60px;
+        }
+        .container{
+            max-width: 600px;
+            margin: auto;
+            background-color: blanchedalmond;
+            border-radius:15px;
+            box-shadow:0 10px 10px  rgb(220, 159, 69);
+            padding: 25px;
+        }
+        h2{
+            text-align: center;
+            color: #052647;
+            margin-bottom: 30px;
+            font-weight: bold;
+            font-size: 30px;
+        }
+        label{
+            display: block;
+            color:black;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+        input,select{
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            font-size: 15px;
+            border: 1px solid rgb(74, 11, 74);
+            border-radius: 5px;
+            background-color: whitesmoke;
+        }
+        input[type="button"]{
+            background-color: white;
+            color: green;
+            border: 2px solid green;
+            font-weight: bold ;
+            cursor: pointer;
+            padding: 10px;
+            margin-top: 10px;
+            width: 200px;
+            margin-left: 200px;
+            
+        }
+        input[type="button"]:hover{
+            background-color: green;
+            color: white;
+        }
+        .footer{
+            margin-top: 25px;
+            text-align: center;
+            font-weight: bold;
+        }
+        @media screen and (max-width: 1200px) {
+        h2 {
+        width: 90%;
+        font-size: 24px;
+        } 
+          table {
+        width: 100%;
+        }
+        img {
+        width: 100%
+        }
+    }
+    @media screen and (max-width: 992px) {
+      h1 {
+      font-size: 30px;
+      }
+      h2 {
+      font-size: 22px;
+      }
+      table tr {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      }
+      table td {
+      width: 45%;
+      padding: 10px;
+      }
+      img {
+      width: 100%
+      }
+    }
+    @media screen and (max-width: 768px) {
+      h1 {
+      font-size: 26px;
+      }
+      h2 {
+      font-size: 20px;
+      }
+      table td {
+      width: 100%;
+      }
+      img {
+      width: 90%
+      }
+    }
+    @media screen and (max-width: 480px) {
+      body {
+      font-size: 14px;
+      }
+      h1 {
+      font-size: 22px;
+      }
+      h2 {
+      font-size: 18px;
+      padding: 10px;
+      border-radius: 20px;
+      }
+       img {
+       width: 100%
+       }
+    }
+    </style>
+</head>
+<body>
+    <form>
+    <div class="container">
+        <h2>Student Registration Form</h2>
+        <label for="">Student Name:</label>
+        <input type="text" placeholder="Full name" required><br>
+        <label for="">Email id:</label>
+        <input type="text" placeholder="you@gmail.com"><br>
+        <label for="">DOB:</label>
+        <input type="date" placeholder="date of birth"><br>
+        <label for="">Gender:</label>
+        <select>
+            <option value="">Male</option>
+            <option value="">Female</option>
+        </select><br>
+        <label for="">Mobile Number</label>
+        <input type="text" placeholder="10 digits number"><br>
+        <label for="">Course</label>
+        <input type="text" placeholder="E.g. B.Tech,M.Tech,MCA"><br>
+        <input type="button" value="Register">
+    </div>
+    <div class="footer">
+        &copy; 2025 student portal. All Rights Reserved by Mandapati Renuka
+    </div>
+    </form>
+</body>
+</html>
