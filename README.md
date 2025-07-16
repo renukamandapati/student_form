@@ -20,5 +20,5 @@ This project is a **responsive student registration form** designed using **HTML
 - CSS3
 - Bootstrap 5
 
-## 📁 Folder Structure
+
 
