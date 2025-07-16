@@ -4,7 +4,7 @@ This project is a **responsive student registration form** designed using **HTML
 
 ## 🌐 Live Demo
 
-🔗 [View Live on GitHub Pages](https://renukamandhapati.github.io/studentform/)  
+🔗 [View Live on GitHub Pages](https://renukamandapati.github.io/student_form/)  
 
 
 ## 🎯 Features
